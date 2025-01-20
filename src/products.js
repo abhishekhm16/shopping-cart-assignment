@@ -9,13 +9,13 @@ window.addEventListener("popstate", (e) => {
 
 const loadProducts = async () => {
     try {
-        const productsUrl = "http://localhost:3000/products"
+        const productsUrl = "api/products"
 
         const params = new URLSearchParams(window.location.search);
         console.log(params);
 
         const res = await Promise.all([
-            fetch("http://localhost:3000/categories"),
+            fetch("api/categories"),
             fetch(productsUrl),
         ]);
         const json = await Promise.all([

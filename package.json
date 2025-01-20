@@ -1,7 +1,7 @@
 {
   "name": "sabkabazaar-project",
   "version": "1.0.0",
-  "description": "html css javascript training",
+  "description": "html css javascript project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +10,7 @@
     "server": "json-server --watch db.json -m ./node_modules/json-server-auth"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imyagnesh/sapient_b2.git"
+    "type": "git"
   },
   "browserslist": {
     "production": [
@@ -28,10 +27,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/imyagnesh/sapient_b2/issues"
-  },
-  "homepage": "https://github.com/imyagnesh/sapient_b2#readme",
+  
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
