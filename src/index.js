@@ -10,7 +10,7 @@ const onExploreClick = (event) => {
 const loadData = async () => {
     try {
         
-        const res = await fetch("api/categories");
+        const res = await fetch("api/getData/categories");
 
         const json = await res.json();
 
